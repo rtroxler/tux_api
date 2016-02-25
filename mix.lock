@@ -12,4 +12,4 @@
   "poison": {:hex, :poison, "2.1.0"},
   "postgrex": {:hex, :postgrex, "0.11.1"},
   "ranch": {:hex, :ranch, "1.2.1"},
-  "tux": {:git, "git://github.com/rtroxler/tux.git", "f0ee4b0dcfe29460b8198cc7c30974dddd991f27", []}}
+  "tux": {:git, "git://github.com/rtroxler/tux.git", "a97a313dd5a8ccdfc26259e6c2a5bd7dda8ec679", []}}
