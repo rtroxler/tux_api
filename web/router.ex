@@ -16,6 +16,8 @@ defmodule TuxApi.Router do
    scope "/api", TuxApi do
      pipe_through :api
 
-     get "/tux", TuxController, :process
+     get "/rate-data", TuxController, :process_rates
+     get "/national-rate-data", TuxController, :process_all_rates
+     get "/city-data", TuxController, :find_cities
    end
 end

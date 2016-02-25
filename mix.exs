@@ -17,7 +17,7 @@ defmodule TuxApi.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {TuxApi, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext]]
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext, :tux]]
   end
 
   # Specifies which paths to compile per environment.
@@ -32,6 +32,8 @@ defmodule TuxApi.Mixfile do
      {:phoenix_html, "~> 2.3"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:tux, git: "git://github.com/rtroxler/tux.git"}
+   ]
   end
 end
