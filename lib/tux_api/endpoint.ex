@@ -35,5 +35,7 @@ defmodule TuxApi.Endpoint do
     key: "_tux_api_key",
     signing_salt: "PjA5dVRJ"
 
+  plug Corsica, origins: "*"
+
   plug TuxApi.Router
 end

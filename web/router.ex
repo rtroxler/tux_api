@@ -16,6 +16,6 @@ defmodule TuxApi.Router do
    scope "/api", TuxApi do
      pipe_through :api
 
-     get "/tux", TuxController, :process
+     get "/unit-data", TuxController, :process
    end
 end
