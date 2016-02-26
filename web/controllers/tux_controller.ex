@@ -9,7 +9,7 @@ defmodule TuxApi.TuxController do
     data =
     data = %{
       id: 1,
-      type: "rent-data",
+      type: "rent-datas",
       attributes: Tux.process(unit_length, unit_width, city_name)
     }
 
@@ -25,7 +25,7 @@ defmodule TuxApi.TuxController do
     [unit_length, unit_width] = split_unit_dimensions(unit_dimensions)
     data = %{
       id: 1,
-      type: "city-data",
+      type: "city-datas",
       attributes: Tux.popular_cities(unit_length, unit_width)
     }
     render conn, "process.json", data: data
