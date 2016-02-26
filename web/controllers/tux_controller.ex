@@ -9,11 +9,11 @@ defmodule TuxApi.TuxController do
     data =
     data = %{
       id: 1,
-      type: "rent-datas",
+      type: "rate-datas",
       attributes: Tux.process(unit_length, unit_width, city_name)
     }
 
-    render conn, "process.json", data: data
+    render conn, "process.json", data: [ data ]
   end
 
   def process_all_rates(conn, _) do

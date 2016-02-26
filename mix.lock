@@ -1,6 +1,6 @@
-%{"cors_plug": {:hex, :cors_plug, "1.1.0"},
+%{"connection": {:hex, :connection, "1.0.2"},
+  "cors_plug": {:hex, :cors_plug, "1.1.0"},
   "corsica": {:hex, :corsica, "0.4.0"},
-  "connection": {:hex, :connection, "1.0.2"},
   "cowboy": {:hex, :cowboy, "1.0.4"},
   "cowlib": {:hex, :cowlib, "1.0.2"},
   "db_connection": {:hex, :db_connection, "0.2.4"},
@@ -14,4 +14,4 @@
   "poison": {:hex, :poison, "2.1.0"},
   "postgrex": {:hex, :postgrex, "0.11.1"},
   "ranch": {:hex, :ranch, "1.2.1"},
-  "tux": {:git, "git://github.com/rtroxler/tux.git", "a97a313dd5a8ccdfc26259e6c2a5bd7dda8ec679", []}}
+  "tux": {:git, "git://github.com/rtroxler/tux.git", "a79ae9fb94b43d3ac7ce5e353942eddefa2885e9", []}}
